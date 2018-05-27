@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_f358963ab5634ba6937875dc25fd081a {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f358963ab5634ba6937875dc25fd081a" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_f358963ab5634ba6937875dc25fd081a = L.map(
+                                  'map_f358963ab5634ba6937875dc25fd081a',
+                                  {center: [-9.730035912741032,-35.94242999744833],
+                                  zoom: 8,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_1706d2e7a3ec462891a244a2f7007098 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_f358963ab5634ba6937875dc25fd081a);
+        
+    
+
+            var marker_71e796f50dca44a5a572c51ce635c7b2 = L.marker(
+                [-10.292302964572137,-36.498737388372014],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_9f12b7f9ec644f779d137e97c07296e4 = L.popup({maxWidth: '300'});
+
+            
+                var html_0f32613a42a74cf9a6243c2e7fabdd46 = $('<div id="html_0f32613a42a74cf9a6243c2e7fabdd46" style="width: 100.0%; height: 100.0%;">Usina Paisa</div>')[0];
+                popup_9f12b7f9ec644f779d137e97c07296e4.setContent(html_0f32613a42a74cf9a6243c2e7fabdd46);
+            
+
+            marker_71e796f50dca44a5a572c51ce635c7b2.bindPopup(popup_9f12b7f9ec644f779d137e97c07296e4);
+
+            
+        
+    
+
+            var marker_4c539fc1a83644bd9245f09fc74d5328 = L.marker(
+                [-10.160612030190913,-36.34802095010422],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_d4b4fe192fe24f49830bfc29f62987d4 = L.popup({maxWidth: '300'});
+
+            
+                var html_7a80d3aaa6e9441281d61612f96ff55e = $('<div id="html_7a80d3aaa6e9441281d61612f96ff55e" style="width: 100.0%; height: 100.0%;">Destilaria Pindorama</div>')[0];
+                popup_d4b4fe192fe24f49830bfc29f62987d4.setContent(html_7a80d3aaa6e9441281d61612f96ff55e);
+            
+
+            marker_4c539fc1a83644bd9245f09fc74d5328.bindPopup(popup_d4b4fe192fe24f49830bfc29f62987d4);
+
+            
+        
+    
+
+            var marker_9639236418844cb086ba3ec266dfdb34 = L.marker(
+                [-10.12366586564763,-36.274484752606924],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_41fc5384f23f41f6b8762edab0c9f252 = L.popup({maxWidth: '300'});
+
+            
+                var html_047387df8642423ea1213bf40436ad69 = $('<div id="html_047387df8642423ea1213bf40436ad69" style="width: 100.0%; height: 100.0%;">Usina Coruripe</div>')[0];
+                popup_41fc5384f23f41f6b8762edab0c9f252.setContent(html_047387df8642423ea1213bf40436ad69);
+            
+
+            marker_9639236418844cb086ba3ec266dfdb34.bindPopup(popup_41fc5384f23f41f6b8762edab0c9f252);
+
+            
+        
+    
+
+            var marker_d4973e030a7a47b2adebdbad376631d9 = L.marker(
+                [-9.915045946517978,-36.33302774753591],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_60e7356d90d34e42bf1bf8dbd52fdaef = L.popup({maxWidth: '300'});
+
+            
+                var html_796e988df20242c1b02a0822d976a4fb = $('<div id="html_796e988df20242c1b02a0822d976a4fb" style="width: 100.0%; height: 100.0%;">Usina Seresta</div>')[0];
+                popup_60e7356d90d34e42bf1bf8dbd52fdaef.setContent(html_796e988df20242c1b02a0822d976a4fb);
+            
+
+            marker_d4973e030a7a47b2adebdbad376631d9.bindPopup(popup_60e7356d90d34e42bf1bf8dbd52fdaef);
+
+            
+        
+    
+
+            var marker_aa1301b0be0e44c5b2962e00cb3c54c8 = L.marker(
+                [-9.98546135560682,-36.22610933345937],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_f8ab1993c6ff4c5fbaf72d300a44f1b4 = L.popup({maxWidth: '300'});
+
+            
+                var html_0e31439718c6461eafa1f4b6905c6c0f = $('<div id="html_0e31439718c6461eafa1f4b6905c6c0f" style="width: 100.0%; height: 100.0%;">Usina Guaxuma</div>')[0];
+                popup_f8ab1993c6ff4c5fbaf72d300a44f1b4.setContent(html_0e31439718c6461eafa1f4b6905c6c0f);
+            
+
+            marker_aa1301b0be0e44c5b2962e00cb3c54c8.bindPopup(popup_f8ab1993c6ff4c5fbaf72d300a44f1b4);
+
+            
+        
+    
+
+            var marker_a5f5775792c740e7a74f7a1a7356376d = L.marker(
+                [-9.884136622325219,-36.158292397339125],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_c05bd3f969214c6fb9cd53a37b01538e = L.popup({maxWidth: '300'});
+
+            
+                var html_36bc988184094461af7e741a4b7bf2fe = $('<div id="html_36bc988184094461af7e741a4b7bf2fe" style="width: 100.0%; height: 100.0%;">Usina Sinimbú</div>')[0];
+                popup_c05bd3f969214c6fb9cd53a37b01538e.setContent(html_36bc988184094461af7e741a4b7bf2fe);
+            
+
+            marker_a5f5775792c740e7a74f7a1a7356376d.bindPopup(popup_c05bd3f969214c6fb9cd53a37b01538e);
+
+            
+        
+    
+
+            var marker_a694e3b0764c451583b11f4d9b0e04a9 = L.marker(
+                [-9.814580032197359,-36.21709355337193],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_a7bee4c680f4425b958a55ccce6ef4ef = L.popup({maxWidth: '300'});
+
+            
+                var html_b498862d6eed4d3186232463fd7a5c24 = $('<div id="html_b498862d6eed4d3186232463fd7a5c24" style="width: 100.0%; height: 100.0%;">Usina Porto Rico</div>')[0];
+                popup_a7bee4c680f4425b958a55ccce6ef4ef.setContent(html_b498862d6eed4d3186232463fd7a5c24);
+            
+
+            marker_a694e3b0764c451583b11f4d9b0e04a9.bindPopup(popup_a7bee4c680f4425b958a55ccce6ef4ef);
+
+            
+        
+    
+
+            var marker_a6fe45cc621e4c4a85118e8be2dae06c = L.marker(
+                [-9.77661611831795,-36.08686120576533],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_d06784e6bd504e288246cf48003db474 = L.popup({maxWidth: '300'});
+
+            
+                var html_b1f5d2c502cd42a883909b7e2818707d = $('<div id="html_b1f5d2c502cd42a883909b7e2818707d" style="width: 100.0%; height: 100.0%;">Usina Caeté</div>')[0];
+                popup_d06784e6bd504e288246cf48003db474.setContent(html_b1f5d2c502cd42a883909b7e2818707d);
+            
+
+            marker_a6fe45cc621e4c4a85118e8be2dae06c.bindPopup(popup_d06784e6bd504e288246cf48003db474);
+
+            
+        
+    
+
+            var marker_4121752cd5de45daa87f47bfaf0debe4 = L.marker(
+                [-9.793974384822006,-36.048732796584986],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_26254a87c2154f64aee1d0fb790758b8 = L.popup({maxWidth: '300'});
+
+            
+                var html_2d65fe97316f4222b0e6dca8832f81bc = $('<div id="html_2d65fe97316f4222b0e6dca8832f81bc" style="width: 100.0%; height: 100.0%;">Usina Roçadinho</div>')[0];
+                popup_26254a87c2154f64aee1d0fb790758b8.setContent(html_2d65fe97316f4222b0e6dca8832f81bc);
+            
+
+            marker_4121752cd5de45daa87f47bfaf0debe4.bindPopup(popup_26254a87c2154f64aee1d0fb790758b8);
+
+            
+        
+    
+
+            var marker_00ca4ada7b07495d9a4c3e0623690399 = L.marker(
+                [-9.730035912741032,-35.94242999744833],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_847bd4b4f6844e2a975ff648a2892405 = L.popup({maxWidth: '300'});
+
+            
+                var html_6766605b80fa4663b96b28eb768403d4 = $('<div id="html_6766605b80fa4663b96b28eb768403d4" style="width: 100.0%; height: 100.0%;">Usina Sumauma</div>')[0];
+                popup_847bd4b4f6844e2a975ff648a2892405.setContent(html_6766605b80fa4663b96b28eb768403d4);
+            
+
+            marker_00ca4ada7b07495d9a4c3e0623690399.bindPopup(popup_847bd4b4f6844e2a975ff648a2892405);
+
+            
+        
+    
+
+            var marker_6c63c67a37e5400d9ece35c5d8ea1ab5 = L.marker(
+                [-9.625989909434299,-36.198664822268164],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_197b426ae3c34e1294d2bf5391565d3e = L.popup({maxWidth: '300'});
+
+            
+                var html_559e9c39d39542f583fde5c6ee30b404 = $('<div id="html_559e9c39d39542f583fde5c6ee30b404" style="width: 100.0%; height: 100.0%;">Usina Triunfo</div>')[0];
+                popup_197b426ae3c34e1294d2bf5391565d3e.setContent(html_559e9c39d39542f583fde5c6ee30b404);
+            
+
+            marker_6c63c67a37e5400d9ece35c5d8ea1ab5.bindPopup(popup_197b426ae3c34e1294d2bf5391565d3e);
+
+            
+        
+    
+
+            var marker_09aa98585d7e488d87bc197bddfb3b65 = L.marker(
+                [-9.376090572142335,-36.15928532466157],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_83f365e3d57e4eaab0d59dfe33747e8d = L.popup({maxWidth: '300'});
+
+            
+                var html_1d2db31f8dc643cc844674b48da58df0 = $('<div id="html_1d2db31f8dc643cc844674b48da58df0" style="width: 100.0%; height: 100.0%;">Usina Capricho</div>')[0];
+                popup_83f365e3d57e4eaab0d59dfe33747e8d.setContent(html_1d2db31f8dc643cc844674b48da58df0);
+            
+
+            marker_09aa98585d7e488d87bc197bddfb3b65.bindPopup(popup_83f365e3d57e4eaab0d59dfe33747e8d);
+
+            
+        
+    
+
+            var marker_f731ddd964cd47bba06df81b24681292 = L.marker(
+                [-9.403970632684205,-36.09511243181451],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_754767f07a044f00983c19ca4f9f47a5 = L.popup({maxWidth: '300'});
+
+            
+                var html_0300c4ed7ed34f248ed2a8dd9ed5ef80 = $('<div id="html_0300c4ed7ed34f248ed2a8dd9ed5ef80" style="width: 100.0%; height: 100.0%;">Usina João de Deus</div>')[0];
+                popup_754767f07a044f00983c19ca4f9f47a5.setContent(html_0300c4ed7ed34f248ed2a8dd9ed5ef80);
+            
+
+            marker_f731ddd964cd47bba06df81b24681292.bindPopup(popup_754767f07a044f00983c19ca4f9f47a5);
+
+            
+        
+    
+
+            var marker_bb816e7043d040ddb038718737906054 = L.marker(
+                [-9.48125109176584,-35.96015375015319],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_fbe496dd539a486b981ded30d1a62823 = L.popup({maxWidth: '300'});
+
+            
+                var html_c2004b3766ea445684ab6b932d254d3e = $('<div id="html_c2004b3766ea445684ab6b932d254d3e" style="width: 100.0%; height: 100.0%;">Usina Uruba</div>')[0];
+                popup_fbe496dd539a486b981ded30d1a62823.setContent(html_c2004b3766ea445684ab6b932d254d3e);
+            
+
+            marker_bb816e7043d040ddb038718737906054.bindPopup(popup_fbe496dd539a486b981ded30d1a62823);
+
+            
+        
+    
+
+            var marker_ce95944d82a14622bffbb6490aac7dab = L.marker(
+                [-9.456119704842386,-35.85114522406291],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_aca81af087234624b2e4298f98455398 = L.popup({maxWidth: '300'});
+
+            
+                var html_b7893f6f073040ad948679ba3fd4bed0 = $('<div id="html_b7893f6f073040ad948679ba3fd4bed0" style="width: 100.0%; height: 100.0%;">Usina Santa Clotilde</div>')[0];
+                popup_aca81af087234624b2e4298f98455398.setContent(html_b7893f6f073040ad948679ba3fd4bed0);
+            
+
+            marker_ce95944d82a14622bffbb6490aac7dab.bindPopup(popup_aca81af087234624b2e4298f98455398);
+
+            
+        
+    
+
+            var marker_a2fe9063bca14e2d8b6b47415e599d85 = L.marker(
+                [-9.549643004206034,-35.86789094335528],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_dceb9cbbccd04f79924eac79354936e8 = L.popup({maxWidth: '300'});
+
+            
+                var html_1dd68ac6885f4273893aa2735307ef38 = $('<div id="html_1dd68ac6885f4273893aa2735307ef38" style="width: 100.0%; height: 100.0%;">Usina Utinga Leão</div>')[0];
+                popup_dceb9cbbccd04f79924eac79354936e8.setContent(html_1dd68ac6885f4273893aa2735307ef38);
+            
+
+            marker_a2fe9063bca14e2d8b6b47415e599d85.bindPopup(popup_dceb9cbbccd04f79924eac79354936e8);
+
+            
+        
+    
+
+            var marker_1a52552f19484653b26225453bb46aa4 = L.marker(
+                [-9.442848102774027,-35.73440675876779],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_955946cd14764fbc85539816f79c9120 = L.popup({maxWidth: '300'});
+
+            
+                var html_80a76934f6f848019d59f3829c21e9cc = $('<div id="html_80a76934f6f848019d59f3829c21e9cc" style="width: 100.0%; height: 100.0%;">Usina Cachoeira</div>')[0];
+                popup_955946cd14764fbc85539816f79c9120.setContent(html_80a76934f6f848019d59f3829c21e9cc);
+            
+
+            marker_1a52552f19484653b26225453bb46aa4.bindPopup(popup_955946cd14764fbc85539816f79c9120);
+
+            
+        
+    
+
+            var marker_690a6e2716d24b859f1aabf2b79dd663 = L.marker(
+                [-9.129079641927065,-35.549225813139316],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_beeaeb20c19d4974bc9b926ea085e2dd = L.popup({maxWidth: '300'});
+
+            
+                var html_b6397c749ae3453eb1b7010f11171b64 = $('<div id="html_b6397c749ae3453eb1b7010f11171b64" style="width: 100.0%; height: 100.0%;">Usina Camaragibe</div>')[0];
+                popup_beeaeb20c19d4974bc9b926ea085e2dd.setContent(html_b6397c749ae3453eb1b7010f11171b64);
+            
+
+            marker_690a6e2716d24b859f1aabf2b79dd663.bindPopup(popup_beeaeb20c19d4974bc9b926ea085e2dd);
+
+            
+        
+    
+
+            var marker_2e9924bfa85c48d5896a44be5369f5e0 = L.marker(
+                [-9.010903990292169,-35.43155845665186],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_3156f79b4eb845e097ed111f365b92d7 = L.popup({maxWidth: '300'});
+
+            
+                var html_c24bb0c507f241ad914edee3cb147479 = $('<div id="html_c24bb0c507f241ad914edee3cb147479" style="width: 100.0%; height: 100.0%;">Usina santa Maria</div>')[0];
+                popup_3156f79b4eb845e097ed111f365b92d7.setContent(html_c24bb0c507f241ad914edee3cb147479);
+            
+
+            marker_2e9924bfa85c48d5896a44be5369f5e0.bindPopup(popup_3156f79b4eb845e097ed111f365b92d7);
+
+            
+        
+    
+
+            var marker_4b74b88854b14d53943428f13f6e60fd = L.marker(
+                [-8.915437194273322,-35.76577424034517],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_4251334829694878aa4a8fe918559f23 = L.popup({maxWidth: '300'});
+
+            
+                var html_feae7be64bdf4b7c8c0eea2a98265398 = $('<div id="html_feae7be64bdf4b7c8c0eea2a98265398" style="width: 100.0%; height: 100.0%;">Usina Taquara</div>')[0];
+                popup_4251334829694878aa4a8fe918559f23.setContent(html_feae7be64bdf4b7c8c0eea2a98265398);
+            
+
+            marker_4b74b88854b14d53943428f13f6e60fd.bindPopup(popup_4251334829694878aa4a8fe918559f23);
+
+            
+        
+    
+
+            var marker_7e5c07d1a7724789b1756ee4b05daed3 = L.marker(
+                [-8.974745617640945,-36.06449306431813],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_7176dfc19f174de197469bb7c5e52b42 = L.popup({maxWidth: '300'});
+
+            
+                var html_80c0fceafee04e6b8593144a379df1fd = $('<div id="html_80c0fceafee04e6b8593144a379df1fd" style="width: 100.0%; height: 100.0%;">Usina Serra Grande</div>')[0];
+                popup_7176dfc19f174de197469bb7c5e52b42.setContent(html_80c0fceafee04e6b8593144a379df1fd);
+            
+
+            marker_7e5c07d1a7724789b1756ee4b05daed3.bindPopup(popup_7176dfc19f174de197469bb7c5e52b42);
+
+            
+        
+    
+
+            var marker_cd0ee6546e804b57994de103984e3758 = L.marker(
+                [-9.183894094572958,-36.044714566633644],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_79abd9d32f1f439292f8c904283ea2f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_225f898e7d62438889ac6a64ef3a6da7 = $('<div id="html_225f898e7d62438889ac6a64ef3a6da7" style="width: 100.0%; height: 100.0%;">Usina Laginha</div>')[0];
+                popup_79abd9d32f1f439292f8c904283ea2f6.setContent(html_225f898e7d62438889ac6a64ef3a6da7);
+            
+
+            marker_cd0ee6546e804b57994de103984e3758.bindPopup(popup_79abd9d32f1f439292f8c904283ea2f6);
+
+            
+        
+    
+
+            var marker_5a04e114e32141af804e997dd5a619bb = L.marker(
+                [-9.90234520192285,-35.979254997462334],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_29395e66241b475587003e63369774e5 = L.popup({maxWidth: '300'});
+
+            
+                var html_fd62efa053db4db7bff95c466495a378 = $('<div id="html_fd62efa053db4db7bff95c466495a378" style="width: 100.0%; height: 100.0%;">Destilaria Roteiro (Desativada)</div>')[0];
+                popup_29395e66241b475587003e63369774e5.setContent(html_fd62efa053db4db7bff95c466495a378);
+            
+
+            marker_5a04e114e32141af804e997dd5a619bb.bindPopup(popup_29395e66241b475587003e63369774e5);
+
+            
+        
+    
+
+            var marker_fbc22d1ec916493cbb4cac23eab7adca = L.marker(
+                [-8.898227655799122,-35.667380750717385],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_3475e2a07537464eb00a2aef44601906 = L.popup({maxWidth: '300'});
+
+            
+                var html_e47ce81282944f1f890157ea2f9806a2 = $('<div id="html_e47ce81282944f1f890157ea2f9806a2" style="width: 100.0%; height: 100.0%;">Destilaria Porto Alegre</div>')[0];
+                popup_3475e2a07537464eb00a2aef44601906.setContent(html_e47ce81282944f1f890157ea2f9806a2);
+            
+
+            marker_fbc22d1ec916493cbb4cac23eab7adca.bindPopup(popup_3475e2a07537464eb00a2aef44601906);
+
+            
+        
+    
+
+            var marker_7305f1b33d0d4612b9a2c0014dfffcbd = L.marker(
+                [-10.150379189861725,-36.54179675241827],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f358963ab5634ba6937875dc25fd081a);
+            
+    
+            var popup_392bf2f2ade44c9abccea4051387c634 = L.popup({maxWidth: '300'});
+
+            
+                var html_94b835aa37f74e2694d306f6dc749097 = $('<div id="html_94b835aa37f74e2694d306f6dc749097" style="width: 100.0%; height: 100.0%;">Usina Marituba</div>')[0];
+                popup_392bf2f2ade44c9abccea4051387c634.setContent(html_94b835aa37f74e2694d306f6dc749097);
+            
+
+            marker_7305f1b33d0d4612b9a2c0014dfffcbd.bindPopup(popup_392bf2f2ade44c9abccea4051387c634);
+
+            
+        
+</script>
